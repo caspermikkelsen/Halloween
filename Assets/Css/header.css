@@ -13,14 +13,14 @@
     bottom: 0;
     border: 9px solid red;
     fill: orange;
+    margin-bottom: 6rem;
 }
 
 .main-header .pumpkin-left {
     left: 10%;
     transform: translateX(-50%);
-    margin-bottom: 2rem;
     animation-name: pumpkinSway;
-    animation-delay: 0.3s;
+    animation-delay: 0.1s;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
@@ -32,6 +32,8 @@
     animation-name: pumpkinSway;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+    margin-bottom: 6rem;
+    padding-left: 8rem;
 }
 
 /* Pumpkin Animations */
@@ -41,4 +43,12 @@
    45% {transform: rotate(0deg);}
    70% {transform: rotate(-25deg);}
    100% {transform: rotate(0deg);}
+}
+
+.main-header .header-button {
+    background: red;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
 }
