@@ -1,12 +1,8 @@
+@import url(header.css);
+
 .container-main{
     width: 700px;
     margin: auto;
     border-style: solid;
     border-radius: 15px;
 }
-
-.main-header .header-image{
-    width: 100%;
-    border-radius: 15px;
-}
-
