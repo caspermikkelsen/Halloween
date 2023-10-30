@@ -4,3 +4,8 @@
     border-style: solid;
     border-radius: 15px;
 }
+
+.main-header img{
+    width: 100%;
+    border-radius: 15px;
+}
