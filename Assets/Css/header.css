@@ -12,7 +12,7 @@
     position: absolute;
     bottom: 0;
     border: 9px solid red;
-    fill: orange;
+    filter: invert(53%) sepia(97%) saturate(472%) hue-rotate(360deg) brightness(106%) contrast(104%);
     margin-bottom: 6rem;
 }
 
