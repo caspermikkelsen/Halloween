@@ -10,10 +10,13 @@
     <div class="container-main">
         <header class="main-header">
             <img class="header-image" src="./Assets/images/Halloween Header Logo.png">
-            <img class="pumpkin-image pumpkin-left" src="./Assets/images/svg/halloween-pumpkin.svg">
-            <img class="pumpkin-image pumpkin-right" src="./Assets/images/svg/halloween-pumpkin.svg">
+            <img class="pumpkin-image pumpkin-left" onclick="playAudio()" src="./Assets/images/svg/halloween-pumpkin.svg">
+            <img class="pumpkin-image pumpkin-right" onclick="playAudio()" src="./Assets/images/svg/halloween-pumpkin.svg">
 
             <img class="witch" src="./Assets/images/svg/witch-illustration.svg">
+            <audio id="pumpkinSound">
+                <source src="./Assets/images/PUMPKIN.mp3" type="audio/mpeg">
+            </audio>
         </header>
         <div class="button-container">
             <button class="header-button">Tilmeld</button>
@@ -76,5 +79,6 @@
             <!-- k -->
         </section>
     </div>
+    <script src="./Assets/app.js"></script>
 </body>
 </html>
