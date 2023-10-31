@@ -67,17 +67,21 @@
     100% {opacity: 0; transform: translate(-920%);}
 }
 
-.button-container {
+.link-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
-.button-container .header-button {
-    background: red;
+.link-container a {
+    text-align: center;
+    text-decoration: none;
     color: #fff;
-    width: 100px;
-    height: 40px;
+    background: red;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     border-radius: 10px;
-    cursor: pointer;
 }
