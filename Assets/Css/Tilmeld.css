@@ -87,12 +87,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .sociale-medier figure img {
     width: 30%;
     filter: invert(53%) sepia(97%) saturate(472%) hue-rotate(360deg) brightness(106%) contrast(104%);
+    cursor: pointer;
 }
 
 
