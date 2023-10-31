@@ -1,5 +1,11 @@
 @import url(header.css);
 
+/* Halloween font */
+@font-face {
+    font-family: 'happyHalloween';
+    src: url(../font/HappyHalloween.ttf);
+}
+
 .container-main{
     width: 400px;
     margin: auto;

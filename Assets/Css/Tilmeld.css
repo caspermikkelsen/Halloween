@@ -78,6 +78,53 @@
     margin: auto;
 }
 
+.container-main .tilmeld-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.tilmeld-form form input {
+    width: 235px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.tilmeld-form input::placeholder {
+    font-family: 'happyHalloween', sans-serif;
+    text-align: center;
+}
+
+.tilmeld-form textarea {
+    resize: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.tilmeld-form textarea::placeholder {
+    text-align: center;
+}
+
+.tilmeld-form form .form-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-btns input[type="submit"],
+.form-btns input[type="reset"] {
+    width: 108px;
+    height: 40px;
+    flex-shrink: 0; 
+    border-radius: 10px;
+    background: #FF3B3B;
+    border: 0;
+    color: #fff;
+}
+
+
 .sociale-medier header{
     text-align: center;
     color: #fff;
