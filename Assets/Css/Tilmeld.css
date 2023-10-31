@@ -100,10 +100,27 @@ section{
     border-radius: 10px;
 }
 
-.tilmeld-footer img {
+.tilmeld-footer .tilbage-knap {
     position: absolute;
     width: 38%;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
+}
+
+.tilmeld-footer .skeleton-image {
+    position: relative;
+}
+
+.skeleton-image .skelet-kranium {
+    width: 30%;
+    transform: rotate(-90deg);
+}
+
+.tilmeld-footer .skeleton-image .skelet-krop {
+    position: absolute;
+    left: 29%;
+    filter: invert(100%);
+    width: 30%;
+    transform: rotate(-90deg);
 }
