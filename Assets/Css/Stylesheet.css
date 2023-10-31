@@ -6,6 +6,10 @@
     src: url(../font/HappyHalloween.ttf);
 }
 
+body {
+    font-family: 'happyHalloween', sans-serif;
+}
+
 .container-main{
     width: 400px;
     margin: auto;
