@@ -84,6 +84,10 @@ section{
     align-items: center;
 }
 
+.tilmeld-footer .link-container {
+    position: relative;
+}
+
 .tilmeld-footer .link-container a {
     text-align: left;
     text-decoration: none;
@@ -91,7 +95,15 @@ section{
     background: red;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 3.5rem;
     border-radius: 10px;
+}
+
+.tilmeld-footer img {
+    position: absolute;
+    width: 38%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
 }
