@@ -4,7 +4,7 @@ body {
 }
 
 .container-main .tilmeld-form{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
@@ -17,7 +17,6 @@ body {
 .tilmeld-form form input {
     width: 235px;
     height: 45px;
-    flex-shrink: 0;
     border-radius: 10px;
 }
 
