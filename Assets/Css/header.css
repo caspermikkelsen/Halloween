@@ -8,16 +8,18 @@
 }
 
 .main-header .pumpkin-image {
-    width: 4vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 3vw;
     position: absolute;
-    bottom: 0;
-    border: 9px solid red;
+    top: 70%;
+    bottom: 30%;
     filter: invert(53%) sepia(97%) saturate(472%) hue-rotate(360deg) brightness(106%) contrast(104%);
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .main-header .pumpkin-left {
-    left: 10%;
+    left: 5%;
     transform: translateX(-50%);
     animation-name: pumpkinSway;
     animation-delay: 0.1s;
@@ -26,14 +28,11 @@
 }
 
 .main-header .pumpkin-right {
-    right: 15%;
+    right: 5%;
     transform: translateX(50%);
-    margin-bottom: 2rem;
     animation-name: pumpkinSway;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    margin-bottom: 6rem;
-    padding-left: 8rem;
 }
 
 /* Pumpkin Animations */
@@ -45,10 +44,31 @@
    100% {transform: rotate(0deg);}
 }
 
-.main-header .header-button {
+.main-header .witch {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    animation-name: witchAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes witchAnimation {
+    0% {transform: translateX(-20%);}
+    100% {transform: translateX(-1000%);}
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container .header-button {
     background: red;
     color: #fff;
     width: 100px;
     height: 40px;
     border-radius: 10px;
+    cursor: pointer;
 }
