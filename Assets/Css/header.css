@@ -55,7 +55,10 @@
 
 @keyframes witchAnimation {
     0% {transform: translateX(-20%);}
-    100% {transform: translateX(-1000%);}
+    100% {
+        transform: translateX(-1000%);
+        opacity: 0;
+    }
 }
 
 .button-container {
