@@ -72,9 +72,27 @@
     width: 100%;
     border-radius: 13px;
 }
-section{
+
+.container-main .tilmeld-form{
     width: 60%;
     margin: auto;
+}
+
+.sociale-medier header{
+    text-align: center;
+    color: #fff;
+}
+
+.tilmeld-form .sociale-medier figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sociale-medier figure img {
+    width: 30%;
+    filter: invert(53%) sepia(97%) saturate(472%) hue-rotate(360deg) brightness(106%) contrast(104%);
 }
 
 
