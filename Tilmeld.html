@@ -8,12 +8,15 @@
 </head>
 <body>
     <div class="container-main">
-        <header class="header-main">
-            <img src="Assets/Images/Halloween Header Logo.png" alt="">
-            <div class="header-pumpkin">
-                <img class="pumpkin-left" src="Assets/Images/svg/halloween-pumpkin.svg" alt="">
-                <img class="pumpkin-right" src="Assets/Images/svg/halloween-pumpkin.svg" alt="">
-            </div>
+        <header class="main-header">
+            <img class="header-image" src="./Assets/images/Halloween Header Logo.png">
+            <img class="pumpkin-image pumpkin-left" onclick="playAudio()" src="./Assets/images/svg/halloween-pumpkin.svg">
+            <img class="pumpkin-image pumpkin-right" onclick="playAudio()" src="./Assets/images/svg/halloween-pumpkin.svg">
+
+            <img class="witch" src="./Assets/images/svg/witch-illustration.svg">
+            <audio id="pumpkinSound">
+                <source src="./Assets/images/PUMPKIN.mp3" type="audio/mpeg">
+            </audio>
         </header>
         <section>
             <fieldset>
