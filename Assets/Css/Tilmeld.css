@@ -76,3 +76,22 @@ section{
     width: 60%;
     margin: auto;
 }
+
+
+.tilmeld-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tilmeld-footer .link-container a {
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+}
