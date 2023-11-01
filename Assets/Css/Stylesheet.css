@@ -114,5 +114,12 @@ hgroup{
 }
 
 .slut-program img {
-    width: 40%;
+    width: 60%;
+}
+.slut {
+    margin-left: 0;
+    margin-right: 0;
+}
+.slut h2 {
+    width: 150px;
 }
