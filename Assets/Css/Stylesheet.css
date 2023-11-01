@@ -82,3 +82,37 @@ hgroup{
     margin-top: 1rem;
     margin-left: 0.4rem;
 }
+
+
+.ingredienser-list {
+    padding-right: 0.5rem;
+}
+
+.ingredienser-list ul {
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0.8rem;
+    padding-left: 1.3rem;
+}
+
+.event-list p{
+    font-size: 15px;
+}
+
+.event-list {
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1;
+}
+
+.slut-program {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.slut-program img {
+    width: 40%;
+}
