@@ -26,7 +26,7 @@ body {
 .figure img {
     width: 90%;
 }
-figure{
+.figure figure{
     display: grid;
     grid-template-rows: 1fr;
     border: 2px solid #000;
