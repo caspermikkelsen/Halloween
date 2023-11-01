@@ -48,11 +48,15 @@ body {
     border-radius: 10px;
     color: white;
 }
+h2{
+    font-size: 15px;
+}
 
 section p {
-    font-size: 11px;
+    font-size: 9px;
     color: white;
     padding: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 section h2 {
     color: white;
@@ -61,4 +65,19 @@ section h2 {
 hgroup{
     border: 2px solid #000;
     border-radius: 8px;
+}
+.fire{
+    margin-top: 0.9rem;
+    margin-left: 0.4rem;
+}
+.Grids2{
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+}
+.græskar{
+    margin-top: 0.4rem;
+}
+.juice{
+    margin-top: 1rem;
+    margin-left: 0.4rem;
 }
