@@ -19,10 +19,13 @@
             </audio>
         </header>
         <section class="tilmeld-form">
-            <form action="Index.html">
-                    <input type="text" placeholder="indtast dit navn...">
-                    <input type="tel" placeholder="intast dit nummer...">
-                    <input type="email" placeholder="indtast din email...">
+            <form action="Index.html" id="sign-up-form">
+                    <!--Den her bliver brugt til at vise fejl besked-->
+                    <div id="errorMessage"></div>
+                    <!---->
+                    <input type="text" id="fName" placeholder="indtast dit navn...">
+                    <input type="tel" id="telNumber" placeholder="intast dit nummer...">
+                    <input type="email" id="email" placeholder="indtast din email...">
                     <textarea name="" id="" cols="10" rows=6" placeholder="indtast din besked..."></textarea>
                     <span class="form-btns">
                         <input type="submit" value="Indsend">
